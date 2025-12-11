@@ -14,13 +14,13 @@ Dataset loading pipeline using a Keras Sequence class.
 Training logs, architecture summary, loss curves, and reconstruction outputs.
  
 ## **Repository Structure**
-1.autoencoder.py            # Full implementation (data loader, model, training, visualisation)
-2.AutoEncoder.pdf           # Full tutorial & explanation (theory + practical)
-3.image_data.csv            # (Not included here) CSV with LR–HR filenames
-4.low res/                  # Folder containing low-resolution images
-5.high res/                 # Folder containing high-resolution images
-6.README.md                 # Project documentation
-7.LICENSE                   # License file (MIT recommended)
+1.autoencoder.py            
+2.AutoEncoder.pdf           
+3.image_data.csv            
+4.low res/                  
+5.high res/                 
+6.README.md                 
+7.LICENSE                 
 
 
 ## **Project Overvie**
@@ -47,7 +47,7 @@ Conv2D(16) → UpSampling
 
 Conv2D(3, sigmoid)
 
-Total trainable parameters: 84,035 (see architecture summary in AutoEncoder.pdf, Page 8).
+Total trainable parameters: 84,035.
 
 ## **Installation**
 **1. Clone the Repository**
