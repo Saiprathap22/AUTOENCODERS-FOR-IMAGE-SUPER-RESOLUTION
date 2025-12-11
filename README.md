@@ -54,8 +54,7 @@ Total trainable parameters: 84,035.
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 
-**2. Create Environment**
-pip install -r requirements.txt
+
 
 
 # **Recommended packages:**
@@ -185,7 +184,49 @@ Replace MSE with perceptual loss (VGG-based)
 Use GAN architecture (SRGAN or ESRGAN)
 
 Try residual autoencoders
+## **HOW TO RUN THIS FILE**
 
+Using your uploaded file: autoencoder (1).py 
+
+autoencoder (1)
+
+1️⃣ **Open Terminal / CMD inside the folder**
+
+Example:
+
+cd "C:\Users\YourName\Downloads\AutoencoderProject"
+
+2️⃣ **Install required libraries**
+
+Run:
+
+pip install tensorflow matplotlib pandas numpy scikit-learn pillow
+
+3️⃣ **Make sure your dataset is in correct Google Drive path**
+
+Your code expects:
+
+/content/drive/MyDrive/Image Super Resolution - Unsplash/
+    ├── image_data.csv
+    ├── low res/
+    └── high res/
+
+
+So in Colab, use:
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+4️⃣ **Run the script**
+✔ If running in Google Colab
+
+Upload the file → open it → run all cells.
+
+✔ If running locally
+
+Remove the Google Drive lines and run:
+
+python "autoencoder (1).py"
 
 
 ## **License**
